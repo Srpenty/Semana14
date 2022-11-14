@@ -67,13 +67,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="contactenos.aspx" />
     <Content Include="CSS\stiles.css" />
     <Content Include="default.aspx" />
     <Content Include="img\favico.ico" />
+    <Content Include="Informacion.html" />
     <Content Include="js\functions.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="contactenos.aspx.cs">
+      <DependentUpon>contactenos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contactenos.aspx.designer.cs">
+      <DependentUpon>contactenos.aspx</DependentUpon>
+    </Compile>
     <Compile Include="default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
